@@ -1,0 +1,357 @@
+
+
+<input id="hfPageTitle" name="hfPageTitle" type="hidden" value="Your voter information" />
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?&callback=loadAutoSugggest' async defer></script>
+
+<h1 class="ccd-page-heading">Your voter information</h1>
+
+<div class="row">
+    <div class="col-xl-6 col-md-12">
+		<p>
+			This page provides helpful information about where
+			to find your clerk, polling place, and sample ballots.
+			Looking to register or update your voter registration?  Visit our <a Length="0" href="/RegisterVoter?Length=0">registration page</a>.
+		</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 col-md-12">
+        <p>
+            <strong>
+                Use the log in to check your:
+            </strong>
+			<ul>
+				<li>Registration Status</li>
+				<li>Polling place location and hours</li>
+				<li>View a sample ballot</li>
+				<li>Track an absentee ballot, and more...</li>
+			</ul>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-xl-6 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="ccd-page-heading">Search for your voter information</h2>
+            </div>
+            <div class="card-body">
+                <p>
+                    Entering the information below helps us securely identify you in our database.
+                </p>
+                <p>Required fields are marked with an asterisk <abbr class="req" title="required">*</abbr>.</p>
+                <form id="name-Form" action="" class="mb-3">
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="FirstName">First name</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-regex="Please enter a valid first name." data-val-regex-pattern="^(?=.{1,100}$)[a-zA-Z]+(?:[-=_.`;&#39;\s][a-zA-Z]+)*$" data-val-required="Please enter your first name." id="FirstName" name="FirstName" required="required" type="text" value="Norma" />
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+                        </span>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="LastName">Last name</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-regex="Please enter a valid last name." data-val-regex-pattern="^(?=.{1,100}$)[a-zA-Z]+(?:[-=_.`;&#39;\s][a-zA-Z]+)*$" data-val-required="Please enter your last name." id="LastName" name="LastName" required="required" type="text" value="Twiggs" />
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="NameBirthMonth">Birth month</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <select class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-range="Please select a valid birth month." data-val-range-max="12" data-val-range-min="1" data-val-required="Please select your birth month." id="NameBirthMonth" name="NameBirthMonth" required="required"><option value="">Select</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option selected="selected" value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="NameBirthMonth" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="NameBirthYear">Birth year</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="input-validation-error form-control text-uppercase text-transform-none bold" data-val="true" data-val-range="Please enter a valid birth year." data-val-range-max="2017" data-val-range-min="1900" data-val-regex="Please enter a four digit birth year." data-val-regex-pattern="^\d{4}$" data-val-required="Please enter your birth year." id="NameBirthYear" name="NameBirthYear" required="required" type="number" value="8" />
+                        <span role="alert">
+                            <span class="field-validation-error" data-valmsg-for="NameBirthYear" data-valmsg-replace="true">Please enter a valid birth year.</span>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="ZipCode">ZIP code</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-range="Please enter a vaild Zip Code." data-val-range-max="55000" data-val-range-min="48000" data-val-regex="Please enter a valid ZIP Code." data-val-regex-pattern="^\d{5}(?:[-\s]\d{4})?$" data-val-required="Please enter your ZIP code." id="ZipCode" name="ZipCode" required="required" type="text" value="48146" />
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="ZipCode" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 pt-md-0 text-right">
+                            <button id="btnClearName" type="button" role="button" class="btn btn-back">Clear name form</button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button id="btnSearchName" type="submit" role="button" class="btn btn-primary" formaction="/Voter/SearchByName">Search by name</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <span class="sr-only">,,Alternate Form,,</span>
+                <h2 class="ccd-page-heading">Search by driver's license number</h2>
+            </div>
+            <div class="card-body">
+                <p>Required fields are marked with an asterisk <abbr class="req" title="required">*</abbr>.</p>
+                <form id="dln-Form" class="mb-3">
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="Dln">Driver&#39;s license number</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="form-control text-uppercase bold" data-val="true" data-val-regex="Please enter a valid driver license number." data-val-regex-pattern="^[a-z,A-Z]{1}\d{12}$" data-val-required="Please enter your personal ID or driver license number." id="Dln" maxlength="13" name="Dln" required="required" type="text" value="" />
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="Dln" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="DlnBirthMonth">Driver&#39;s license birth month</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <select class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-range="Please select a valid birth month." data-val-range-max="12" data-val-range-min="1" data-val-required="Please select your birth month." id="DlnBirthMonth" name="DlnBirthMonth" required="required"><option value="">Select</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="DlnBirthMonth" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-uppercase required-label required-label text-transform-none not-bold" for="DlnBirthYear">Driver&#39;s license birth year</label>
+                        <span class="sr-only">,,Required,,</span>
+                        <input class="form-control text-uppercase text-transform-none bold" data-val="true" data-val-range="Please enter a valid birth year." data-val-range-max="2017" data-val-range-min="1900" data-val-regex="Please enter a four digit birth year." data-val-regex-pattern="^\d{4}$" data-val-required="Please enter your birth year." id="DlnBirthYear" name="DlnBirthYear" required="required" type="number" value="0" />
+                        <span role="alert">
+                            <span class="field-validation-valid" data-valmsg-for="DlnBirthYear" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 pt-md-0 text-right">
+                            <button id="btnClearDLN" type="button" role="button" class="btn btn-back">Clear license form</button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button id="btnSearchDln" type="submit" role="button" class="btn btn-primary" formaction="/Voter/SearchByDln">Search by license</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+<div class="row" id="yourclerk">
+    <div class="col-xl-6 col-md-12">
+        <p>
+            <strong>
+                If you would like to contact your city or township clerk, use the search tool
+                below.  Your clerk can help you:
+            </strong>
+            <ul>
+                <li>Register to vote</li>
+                <li>Request an absentee ballot</li>
+                <li>Track an absentee ballot, and more...</li>
+            </ul>
+        </p>
+        <div class="card">
+            <div class="card-header">
+                <h2 class="ccd-page-heading">Search for your city/township clerk</h2>
+            </div>
+            <div class="card-body">
+                <p>Required fields are marked with an asterisk <abbr class="req" title="required">*</abbr>.</p>
+                <p>
+                    Please enter your residential street number, street name, city, state and ZIP code to search for
+                    your clerk's contact information.
+
+                </p>
+                <form id="address-Form" action="" class="mb-3">
+                    <input data-val="true" data-val-regex="The field Latitude must match the regular expression &#39;^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}$&#39;." data-val-regex-pattern="^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}$" id="Latitude" name="Latitude" type="hidden" value="" />
+                    <input data-val="true" data-val-regex="The field Longitude must match the regular expression &#39;^-?([1]?[1-7][1-9]|[1]?[1-8][0]|[1-9]?[0-9])\.{1}\d{1,6}$&#39;." data-val-regex-pattern="^-?([1]?[1-7][1-9]|[1]?[1-8][0]|[1-9]?[0-9])\.{1}\d{1,6}$" id="Longitude" name="Longitude" type="hidden" value="" />
+
+                    <br />
+
+                    <div class="form-group">
+
+                        <span id="searchBoxContainer" class="no-padding clearAddress resize-address">
+                            <label class="control-label text-uppercase required-label text-uppercase text-transform-none not-bold" for="Address">Address </label>
+                            <span class="sr-only">,,Required,,</span>
+                            <input aria_required="true" class="input-validation-error form-control text-uppercase text-transform-none bold" data-val="true" data-val-regex="Please enter a valid address." data-val-regex-pattern="^[a-zA-Z0-9 _#/&#39;,.-]*$" data-val-required="Please enter your address." id="Address" name="Address" placeholder="Enter your residential address (not just your zip code)" required="required" type="text" value="" />
+                        </span>
+                        <span role="alert">
+                            <span class="field-validation-error" data-valmsg-for="Address" data-valmsg-replace="true">Please enter your address.</span>
+                        </span>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 pt-md-0 text-right">
+                            <button id="btnClearAddress" type="button" role="button" class="btn btn-back">Clear address</button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button id="btnSearchByAddress" type="submit" role="button" class="btn btn-primary" formaction="/Voter/SearchByAddress">Search by address</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div id="county-clerk-search" class="col-xl-6 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="ccd-page-heading">Search by county</h2>
+            </div>
+            <div class="card-body">
+                <p>Required fields are marked with an asterisk <abbr class="req" title="required">*</abbr>.</p>
+                <form id="county-Form" action="" class="mb-3">
+                    <p id="county-search-instructions" class="panel-instructions">Select a County for a list of all clerks' contact information.</p>
+                    <br />
+                    <div class="form-group">
+                        <label class="control-label text-uppercase text-transform-none not-bold" for="Counties">County </label>
+                        <span class="sr-only">,,Required,,</span>
+                        <select class="form-control text-uppercase text-transform-none bold" id="Counties" name="Counties" required="required"><option value="">Select</option>
+<option value="1">Alcona County</option>
+<option value="2">Alger County</option>
+<option value="3">Allegan County</option>
+<option value="4">Alpena County</option>
+<option value="5">Antrim County</option>
+<option value="6">Arenac County</option>
+<option value="7">Baraga County</option>
+<option value="8">Barry County</option>
+<option value="9">Bay County</option>
+<option value="10">Benzie County</option>
+<option value="11">Berrien County</option>
+<option value="12">Branch County</option>
+<option value="13">Calhoun County</option>
+<option value="14">Cass County</option>
+<option value="15">Charlevoix County</option>
+<option value="16">Cheboygan County</option>
+<option value="17">Chippewa County</option>
+<option value="18">Clare County</option>
+<option value="19">Clinton County</option>
+<option value="20">Crawford County</option>
+<option value="21">Delta County</option>
+<option value="22">Dickinson County</option>
+<option value="23">Eaton County</option>
+<option value="24">Emmet County</option>
+<option value="25">Genesee County</option>
+<option value="26">Gladwin County</option>
+<option value="27">Gogebic County</option>
+<option value="28">Grand Traverse County</option>
+<option value="29">Gratiot County</option>
+<option value="30">Hillsdale County</option>
+<option value="31">Houghton County</option>
+<option value="32">Huron County</option>
+<option value="33">Ingham County</option>
+<option value="34">Ionia County</option>
+<option value="35">Iosco County</option>
+<option value="36">IRON COUNTY</option>
+<option value="37">Isabella County</option>
+<option value="38">Jackson County</option>
+<option value="39">Kalamazoo County</option>
+<option value="40">Kalkaska County</option>
+<option value="41">Kent County</option>
+<option value="42">Keweenaw County</option>
+<option value="43">Lake County</option>
+<option value="44">Lapeer County</option>
+<option value="45">Leelanau County</option>
+<option value="46">Lenawee County</option>
+<option value="47">Livingston County</option>
+<option value="48">Luce County</option>
+<option value="49">Mackinac County</option>
+<option value="50">Macomb County</option>
+<option value="51">Manistee County</option>
+<option value="52">Marquette County</option>
+<option value="53">Mason County</option>
+<option value="54">Mecosta County</option>
+<option value="55">Menominee County</option>
+<option value="56">Midland County</option>
+<option value="57">Missaukee County</option>
+<option value="58">Monroe County</option>
+<option value="59">Montcalm County</option>
+<option value="60">Montmorency County</option>
+<option value="61">Muskegon County</option>
+<option value="62">Newaygo County</option>
+<option value="63">Oakland County</option>
+<option value="64">Oceana County</option>
+<option value="65">Ogemaw County</option>
+<option value="66">Ontonagon County</option>
+<option value="67">Osceola County</option>
+<option value="68">Oscoda County</option>
+<option value="69">Otsego County</option>
+<option value="70">Ottawa County</option>
+<option value="71">Presque Isle County</option>
+<option value="72">Roscommon County</option>
+<option value="73">Saginaw County</option>
+<option value="74">St. Clair County</option>
+<option value="75">St. Joseph County</option>
+<option value="76">Sanilac County</option>
+<option value="77">Schoolcraft County</option>
+<option value="78">Shiawassee County</option>
+<option value="79">Tuscola County</option>
+<option value="80">Van Buren County</option>
+<option value="81">Washtenaw County</option>
+<option value="82">Wayne County</option>
+<option value="83">Wexford County</option>
+</select>
+                        <span role="alert">
+                            <span class="field-validation-error" data-valmsg-for="CountyName" data-valmsg-replace="true">Please select a county</span>
+                            <span class="field-validation-error" data-valmsg-for="CountyID" data-valmsg-replace="true">Please select a valid county.</span>
+                            <span class="field-validation-valid" data-valmsg-for="Counties" data-valmsg-replace="true"></span>
+                        </span>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 pt-md-0 text-right">
+                            <button id="btnClearCounty" type="button" role="button" class="btn btn-back">Clear County</button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button id="btnCountySearch" type="submit" role="button" class="btn btn-primary" formaction="/Voter/SearchByCounty">Search By County</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?&callback=loadAutoSugggest' async defer></script>
+<script src="/bundles/voterJS?v=CWBNW9RwFCeao40lS_ZkSV_cY5fG8QtDD_X7oC9KjCM1"></script>
+
+<script src="/bundles/clerkJS?v=ZzAGLBXHiEY2ZbKF9yBeGwFh-BUq5C5m5jGY23bcaQ01"></script>
+
+<script src="/bundles/validateJS?v=ARt9pcDK-ZhW_aGsEr65_fd2ERMeMWLOhsvPEWybdEk1"></script>
+
